@@ -52,7 +52,18 @@ FieldType Field::get(int x, int y)
  {
  	//TODO: Complete this function, isSafe(int,int)
  	return true;
+ 	
+         if(x < _map && y < _map) 
+        {
+
+         throw "Not Safe"
+          }
+else
+ 	return true;
  }
+ 	
+ 	
+ 
 
 /**
  * Changes the location from EMPTY_HIDDEN to EMPTY_SHOWN for the 
