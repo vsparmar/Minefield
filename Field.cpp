@@ -32,7 +32,7 @@
  }
 
 /**
- *
+ * Retrieves the state of the field at location (x,y)
 **/
 FieldType Field::get(int x, int y)
 {
